@@ -6,7 +6,7 @@
 
 **注意**: *安装时填写的是MySQL管理员密码，可用于维护Bitnami服务器；建议使用Redmine时，新注册一个高级用户帐户自己用；这样以后移交升级Redmine时也方便*
 
-
+**注意：此手册是用于Bitnami_Redmine3.2.3-0——>3.3.0-1——>3.4.6-5升级**
 
 ## 一、安装后的常用配置
 
@@ -30,7 +30,7 @@ default:
       domain: yeah.net
       authentication: :login
       enable_starttls_auto: true
-      user_name: redmine8515@yeah.net
+      user_name: ******@yeah.net
       password: #不是用户的密码，是一个api_secret_token字符串
 ```
 
