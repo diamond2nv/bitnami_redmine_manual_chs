@@ -46,6 +46,7 @@ default:
 ### 3.打开Apache 的 X-sendfile模块
 
 >***在下载时支持大文件、续传、文件大小、高速的等特性***
+>***Support large files, resume, file size, high speed and other features during download***
 
 A.修改（增加）C:\Bitnami\redmine-3.4.6-5\apache2\conf\httpd.conf
 ```
