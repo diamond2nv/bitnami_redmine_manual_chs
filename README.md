@@ -49,7 +49,7 @@ default:
 >***Support large files, resume, file size, high speed and other features during download***
 
 A.修改（增加）C:\Bitnami\redmine-3.4.6-5\apache2\conf\httpd.conf
-```
+```xml
 LoadModule xsendfile_module modules/mod_xsendfile.so
 RequestHeader Set X-Sendfile-Type X-Sendfile
 <IfModule xsendfile_module>
